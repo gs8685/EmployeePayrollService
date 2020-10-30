@@ -8,7 +8,7 @@ namespace EmployeePayrollService
 {
     class EmployeeRepo
     {
-        public static string connectionString = "Server=127.0.0.1,1433;Database=payroll_service;User Id=sa;Password=###########";
+        public static string connectionString = "Server=127.0.0.1,1433;Database=payroll_service;User Id=sa;Password=############";
         SqlConnection connection = new SqlConnection(connectionString);
 
         public void GetAllEmployee()
